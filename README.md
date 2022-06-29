@@ -41,6 +41,7 @@
 |752|[ Open the Lock](https://leetcode.com/problems/open-the-lock/)|[C++](./solutions/752.%20Open%20the%20Lock.cpp)|354 ms|
 |867|[ Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[C++](./solutions/867.%20Transpose%20Matrix.cpp)|20 ms|
 |965|[ Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|[C++](./solutions/965.%20Univalued%20Binary%20Tree.cpp)|0 ms|
+|977|[ Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[C++](./solutions/977.%20Squares%20of%20a%20Sorted%20Array.cpp)|26 ms|
 |997|[ Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)|[C++](./solutions/997.%20Find%20the%20Town%20Judge.cpp)|196 ms|
 |1137|[ N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)|[C++](./solutions/1137.%20N-th%20Tribonacci%20Number.cpp)|0 ms|
 |1189|[ Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/)|[C++](./solutions/1189.%20Maximum%20Number%20of%20Balloons.cpp)|0 ms|
