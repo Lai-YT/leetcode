@@ -1,30 +1,41 @@
 class Solution {
 public:
     bool isValid(string s) {
-        if (s.length() % 2 == 1) return false;
-        stack<char> paren;
-        paren.push('0');
-        for (char c : s) {
-            switch (c) {
-                case '(':
-                case '[':
-                case '{':
-                paren.push(c);
-                break;
-                case ')':
-                    if (paren.top() != '(') return false;
-                    paren.pop();
-                    break;
-                case ']':
-                    if (paren.top() != '[') return false;
-                    paren.pop();
-                    break;
-                case '}':
-                    if (paren.top() != '{') return false;
-                    paren.pop();
-                    break; 
+        if (s.size() % 2) {
+            return false;
+        }
+        auto parentheses = std::stack<char>{};
+        for (char parenthsis : s) {
+            if (isRightParenthsis_(parenthsis)) {
+                if (parentheses.empty()
+                        || parentheses.top() != getLeftParenthsisOf_(parenthsis)) {
+                    return false;
+                }
+                parentheses.pop();
+            } else {
+                parentheses.push(parenthsis);
             }
         }
-        return paren.top() == '0';
+        return parentheses.empty();
+    }
+​
+    static bool isRightParenthsis_(const char parenthsis) {
+        return parenthsis == ')' || parenthsis == ']' || parenthsis == '}';
+    }
+​
+    static char getLeftParenthsisOf_(const char rightParenthsis) {
+        switch (rightParenthsis) {
+            case ')':
+                return '(';
+            case ']':
+                return '[';
+            case '}':
+                return '{';
+            default:
+                /* we'll ignore the check on this since we're confident such
+                    exception won't occur */
+                return '-';
+        }
     }
 };
+​
