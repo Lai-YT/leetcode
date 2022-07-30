@@ -19,6 +19,7 @@
 |112|[ Path Sum](https://leetcode.com/problems/path-sum/)|[C++](./solutions/112.%20Path%20Sum.cpp)|16 ms|
 |125|[ Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[C++](./solutions/125.%20Valid%20Palindrome.cpp)|4 ms|
 |136|[ Single Number](https://leetcode.com/problems/single-number/)|[C](./solutions/136.%20Single%20Number.c)|18 ms|
+|150|[ Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|[Java](./solutions/150.%20Evaluate%20Reverse%20Polish%20Notation.java)|8 ms|
 |155|[ Min Stack](https://leetcode.com/problems/min-stack/)|[C++](./solutions/155.%20Min%20Stack.cpp)|11 ms|
 |169|[ Majority Element](https://leetcode.com/problems/majority-element/)|[C++](./solutions/169.%20Majority%20Element.cpp)|16 ms|
 |191|[ Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[C++](./solutions/191.%20Number%20of%201%20Bits.cpp)|0 ms|
