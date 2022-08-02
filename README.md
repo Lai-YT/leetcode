@@ -24,6 +24,7 @@
 |155|[ Min Stack](https://leetcode.com/problems/min-stack/)|[C++](./solutions/155.%20Min%20Stack.cpp)|11 ms|
 |168|[ Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)|[C](./solutions/168.%20Excel%20Sheet%20Column%20Title.c)|3 ms|
 |169|[ Majority Element](https://leetcode.com/problems/majority-element/)|[C++](./solutions/169.%20Majority%20Element.cpp)|16 ms|
+|171|[ Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)|[C++](./solutions/171.%20Excel%20Sheet%20Column%20Number.cpp)|0 ms|
 |191|[ Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[C++](./solutions/191.%20Number%20of%201%20Bits.cpp)|0 ms|
 |200|[ Number of Islands](https://leetcode.com/problems/number-of-islands/)|[Python3](./solutions/200.%20Number%20of%20Islands.py)|358 ms|
 |204|[ Count Primes](https://leetcode.com/problems/count-primes/)|[C](./solutions/204.%20Count%20Primes.c)|16 ms|
