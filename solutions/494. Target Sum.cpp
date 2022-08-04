@@ -34,3 +34,8 @@ private:
                                        depthFirstSearch_(pos + 1, sum - curr);
     }
     return memo_.at(pos).at(total_ + sum);
+  }
+​
+  bool isMemoized_(const int val) const { return val != PLACE_HOLDER_; }
+};
+​
