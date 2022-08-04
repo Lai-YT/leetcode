@@ -39,7 +39,7 @@
 |349|[ Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[C++](./solutions/349.%20Intersection%20of%20Two%20Arrays.cpp)|8 ms|
 |367|[ Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[C++](./solutions/367.%20Valid%20Perfect%20Square.cpp)|0 ms|
 |415|[ Add Strings](https://leetcode.com/problems/add-strings/)|[C++](./solutions/415.%20Add%20Strings.cpp)|0 ms|
-|494|[ Target Sum](https://leetcode.com/problems/target-sum/)|[C++](./solutions/494.%20Target%20Sum.cpp)|1896 ms|
+|494|[ Target Sum](https://leetcode.com/problems/target-sum/)|[C++](./solutions/494.%20Target%20Sum.cpp)|31 ms|
 |509|[ Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[C++](./solutions/509.%20Fibonacci%20Number.cpp)|0 ms|
 |622|[ Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)|[C++](./solutions/622.%20Design%20Circular%20Queue.cpp)|20 ms|
 |682|[ Baseball Game](https://leetcode.com/problems/baseball-game/)|[Python3](./solutions/682.%20Baseball%20Game.py)|32 ms|
