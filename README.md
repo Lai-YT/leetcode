@@ -31,6 +31,7 @@
 |217|[ Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[C++](./solutions/217.%20Contains%20Duplicate.cpp)|64 ms|
 |225|[ Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[C++](./solutions/225.%20Implement%20Stack%20using%20Queues.cpp)|0 ms|
 |228|[ Summary Ranges](https://leetcode.com/problems/summary-ranges/)|[C++](./solutions/228.%20Summary%20Ranges.cpp)|0 ms|
+|232|[ Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Java](./solutions/232.%20Implement%20Queue%20using%20Stacks.java)|0 ms|
 |279|[ Perfect Squares](https://leetcode.com/problems/perfect-squares/)|[Java](./solutions/279.%20Perfect%20Squares.java)|42 ms|
 |284|[ Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)|[C++](./solutions/284.%20Peeking%20Iterator.cpp)|4 ms|
 |303|[ Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[C++](./solutions/303.%20Range%20Sum%20Query%20-%20Immutable.cpp)|24 ms|
