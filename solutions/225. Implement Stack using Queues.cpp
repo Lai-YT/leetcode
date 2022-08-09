@@ -1,52 +1,36 @@
 class MyStack {
 public:
-    /** Initialize your data structure here. */
-    MyStack():size(0),now_loc("odd") {}
-    
-    /** Push element x onto stack. */
     void push(int x) {
-        if (now_loc == "even") {
-            even.push(x);
-            while (!odd.empty()) {
-                even.push(odd.front());
-                odd.pop();
-            } now_loc = "odd";
-        } else {
-            odd.push(x);
-            while (!even.empty()) {
-                odd.push(even.front());
-                even.pop();
-            } now_loc = "even";
-        } size++;
+        queue_.push(x);
+        /*
+         * We perform the re-fill everytime,
+         * so the elements are stored in reversed order.
+         * If we do the re-fill only when `pop` is called,
+         * `top` may need re-fill, too.
+         */
+        int size = queue_.size();
+        while (size-- > 1) {
+            queue_.push(queue_.front());
+            queue_.pop();
+        }
     }
-    
-    /** Removes the element on top of the stack and returns that element. */
+​
     int pop() {
-        int n = 0;
-        if (now_loc == "even") {
-            n = odd.front();
-            odd.pop();
-        } else {
-            n = even.front();
-            even.pop();
-        } size--;
-        return n;
+        int x = queue_.front();
+        queue_.pop();
+        return x;
     }
-    
-    /** Get the top element. */
-    int top() {
-        if (now_loc == "even") return odd.front();
-        else return even.front();
+​
+    int top() const {
+        return queue_.front();
     }
-    
-    /** Returns whether the stack is empty. */
-    bool empty() {
-        return size == 0;
+​
+    bool empty() const {
+        return queue_.empty();
     }
+​
 private:
-    queue<int> odd, even;
-    int size;
-    string now_loc;
+    std::queue<int> queue_{};
 };
 ​
 /**
@@ -57,3 +41,4 @@ private:
  * int param_3 = obj->top();
  * bool param_4 = obj->empty();
  */
+​
