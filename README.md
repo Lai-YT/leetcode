@@ -14,7 +14,7 @@
 |69|[ Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[C++](./solutions/69.%20Sqrt(x).cpp)|16 ms|
 |70|[ Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[C++](./solutions/70.%20Climbing%20Stairs.cpp)|0 ms|
 |94|[ Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[C++](./solutions/94.%20Binary%20Tree%20Inorder%20Traversal.cpp)|3 ms|
-|101|[ Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|[C++](./solutions/101.%20Symmetric%20Tree.cpp)|3 ms|
+|101|[ Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|[Java](./solutions/101.%20Symmetric%20Tree.java)|1 ms|
 |104|[ Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[C++](./solutions/104.%20Maximum%20Depth%20of%20Binary%20Tree.cpp)|9 ms|
 |111|[ Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[C++](./solutions/111.%20Minimum%20Depth%20of%20Binary%20Tree.cpp)|236 ms|
 |112|[ Path Sum](https://leetcode.com/problems/path-sum/)|[C++](./solutions/112.%20Path%20Sum.cpp)|16 ms|
