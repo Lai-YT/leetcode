@@ -21,6 +21,7 @@
 |125|[ Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[C++](./solutions/125.%20Valid%20Palindrome.cpp)|4 ms|
 |133|[ Clone Graph](https://leetcode.com/problems/clone-graph/)|[Java](./solutions/133.%20Clone%20Graph.java)|44 ms|
 |136|[ Single Number](https://leetcode.com/problems/single-number/)|[C](./solutions/136.%20Single%20Number.c)|18 ms|
+|141|[ Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Java](./solutions/141.%20Linked%20List%20Cycle.java)|1 ms|
 |150|[ Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|[Java](./solutions/150.%20Evaluate%20Reverse%20Polish%20Notation.java)|8 ms|
 |155|[ Min Stack](https://leetcode.com/problems/min-stack/)|[C++](./solutions/155.%20Min%20Stack.cpp)|11 ms|
 |168|[ Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)|[C](./solutions/168.%20Excel%20Sheet%20Column%20Title.c)|3 ms|
