@@ -47,6 +47,7 @@
 |367|[ Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[C++](./solutions/367.%20Valid%20Perfect%20Square.cpp)|0 ms|
 |415|[ Add Strings](https://leetcode.com/problems/add-strings/)|[C++](./solutions/415.%20Add%20Strings.cpp)|0 ms|
 |494|[ Target Sum](https://leetcode.com/problems/target-sum/)|[C++](./solutions/494.%20Target%20Sum.cpp)|31 ms|
+|500|[ Keyboard Row](https://leetcode.com/problems/keyboard-row/)|[Java](./solutions/500.%20Keyboard%20Row.java)|0 ms|
 |509|[ Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[C++](./solutions/509.%20Fibonacci%20Number.cpp)|0 ms|
 |622|[ Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)|[C++](./solutions/622.%20Design%20Circular%20Queue.cpp)|20 ms|
 |659|[ Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)|[Java](./solutions/659.%20Split%20Array%20into%20Consecutive%20Subsequences.java)|1 ms|
