@@ -1,56 +1,41 @@
 class Solution {
   private String str;
-  private int maxBegin = 0;
-  private int maxEnd = 0;
-  private boolean[][] isPalindrome;
 
   public String longestPalindrome(final String s) {
-    InitMaxRangeIndexAndMemoTable(s);
+    /*
+     * Time complexity: the outer for-loop iterates n times,
+     *  each expandAroundCenter may expand to the whole string, so is also n.
+     *  We obtain O(n^2).
+     * Space complexity: access with index, no memo, which is O(1).
+     */
+
+    str = s;
+    int maxBegin = 0;
+    int maxEnd = 0;  /* included */
     for (int i = 0; i < str.length(); ++i) {
-      for (int j = i; j < str.length(); ++j) {
-        if (isPalindrome(i, j) && (j - i + 1) > maxLen()) {
-          maxBegin = i;
-          maxEnd = j;
-        }
+      /* palindrome can be single or dual centered */
+      final int len = Math.max(expandAroundCenter(i, i),
+                               expandAroundCenter(i, i + 1));
+      if (len > maxEnd - maxBegin + 1) {
+        /*
+         * Single centered palindrome has odd length, taking floor on (len - 1) / 2 and
+         * len / 2 are the same;
+         * dual centered palindrome has even length, since i is the left center, so
+         * len has to be minus by 1 when calculating the begin.
+         */
+        maxBegin = i - (len - 1) / 2;
+        maxEnd = i + len / 2;
       }
     }
     return str.substring(maxBegin, maxEnd + 1);
   }
 
-  private void InitMaxRangeIndexAndMemoTable(final String str) {
-    this.str = str;
-    isPalindrome = new boolean[str.length()][str.length()];
-    maxBegin = 0;
-    maxEnd = 0;
-  }
-
-  /** <code>begin</code> and <code>end</code> are both included. */
-  private boolean isPalindrome(final int begin, final int end) {
-    if (isPalindrome[begin][end]) {
-      return true;
+  private int expandAroundCenter(int left, int right) {
+    while (left >= 0 && right < str.length()
+        && str.charAt(left) == str.charAt(right)) {
+      --left;
+      ++right;
     }
-    if (isSingleLetter(begin, end)
-        || areTwinLetters(begin, end)
-        || areIdenticalLetters(begin, end) && isPalindrome(begin + 1, end - 1)) {
-      isPalindrome[begin][end] = true;
-      return true;
-    }
-    return false;
-  }
-
-  private boolean isSingleLetter(final int begin, final int end) {
-    return begin == end;
-  }
-
-  private boolean areTwinLetters(final int begin, final int end) {
-    return end == begin + 1 && areIdenticalLetters(begin, end);
-  }
-
-  private boolean areIdenticalLetters(final int begin, final int end) {
-    return str.charAt(begin) == str.charAt(end);
-  }
-
-  private int maxLen() {
-    return maxEnd - maxBegin + 1;
+    return (right - 1) - (left + 1) + 1;  /* restore the last in/decreament */
   }
 }
