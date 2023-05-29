@@ -1,7 +1,5 @@
 class Solution {
 public:
-  using FlightInfo = std::tuple<int /* price */, int /* dst */, int /* hop */>;
-  // Dijkstra
   int findCheapestPrice(int n, std::vector<std::vector<int>> &flights, int src,
                         int dst, int k) {
     auto price_of_flights =
@@ -10,39 +8,39 @@ public:
       const auto [city, neighbor, price] = getFlightInfo_(flight);
       price_of_flights.at(city).emplace_back(neighbor, price);
     }
-    // index is the dst flight
-    auto hops_from_src = std::vector<int>(n, std::numeric_limits<int>::max());
-    auto min_heap = std::priority_queue<FlightInfo, std::vector<FlightInfo>,
-                                        std::greater<FlightInfo>>{};
-    min_heap.emplace(0, src, -1);
 
-    // Keeps choosing the one with the cheapest price, reaching out until dst is
-    // reached.
-    while (!min_heap.empty()) {
-      const auto [price, destination, hop] = min_heap.top();
-      min_heap.pop();
-      // NOTE: since this is a min heap, the price is guaranteed to be cheaper.
-      if (hop > hops_from_src.at(destination) || hop > k) {
-        // if we've already encountered a path with a lower price and fewer
-        // hops, or the number of hops exceeds the limit, ignore and move on
-        continue;
-      }
-      // if haven't reached yet or has cheaper price, update it
-      hops_from_src.at(destination) = hop;
-      if (destination == dst) {
-        return price;
-      }
-      for (const auto [neighbor, price_to_neighbor] :
-           price_of_flights.at(destination)) {
-        min_heap.emplace(price + price_to_neighbor, neighbor, hop + 1);
+    auto cheapest_price_from_src =
+        std::vector<int>(n, std::numeric_limits<int>::max());
+    auto reachable_in_i_hops =
+        std::queue<std::pair<int /* dst */, int /* price */>>{};
+    reachable_in_i_hops.emplace(src, 0);
+    for (int i = 0; i <= k && !reachable_in_i_hops.empty(); i++) {
+      int cities_in_i_hops = reachable_in_i_hops.size();
+      while (cities_in_i_hops--) {
+        const auto [city, price] = reachable_in_i_hops.front();
+        reachable_in_i_hops.pop();
+        for (const auto [neighbor, price_to_neighbor] :
+             price_of_flights.at(city)) {
+          const int price_through_city = price + price_to_neighbor;
+          // If reaching the neighbor through the city is cheaper, relax the
+          // record and explore such path.
+          if (price_through_city < cheapest_price_from_src.at(neighbor)) {
+            cheapest_price_from_src.at(neighbor) = price_through_city;
+            reachable_in_i_hops.emplace(neighbor, price_through_city);
+          }
+        }
       }
     }
-    return -1;
+    return cheapest_price_from_src.at(dst) == std::numeric_limits<int>::max()
+               ? -1
+               : cheapest_price_from_src.at(dst);
   }
 
 private:
+  using FlightInfo_ = std::tuple<int /* price */, int /* dst */, int /* hop */>;
+
   /// @return src, dst, price
-  FlightInfo getFlightInfo_(const std::vector<int> &flight) const {
+  FlightInfo_ getFlightInfo_(const std::vector<int> &flight) const {
     return {flight.at(0), flight.at(1), flight.at(2)};
   }
 };
