@@ -1,72 +1,48 @@
 class Solution {
 public:
+  // Bellman-Ford
   int findCheapestPrice(int n, std::vector<std::vector<int>> &flights, int src,
                         int dst, int k) {
-    buildPriceTable_(n, flights);
-    initCacheTable_(n);
-    return findCheapestPrice_(src, dst, k);
+    initReached_(n, src);
+
+    // K hops => k + 1 edges
+    for (std::size_t i = 0; i < k + 1; i++) {
+      // Copy so the ith hop only based on the cheapest price of the (i - 1)th
+      // hop.
+      std::vector<int> cheapest_price_in_i_hops{reached_from_src_};
+      for (const auto &flight : flights) {
+        const auto [city, neighbor, price] = getFlightInfo_(flight);
+        if (isReached_(city)) {
+          cheapest_price_in_i_hops.at(neighbor) =
+              // if using i hops yield a cheaper price, update it
+              std::min(cheapest_price_in_i_hops.at(neighbor),
+                       reached_from_src_.at(city) + price);
+        }
+      }
+      reached_from_src_ = cheapest_price_in_i_hops;
+    }
+
+    return isReached_(dst) ? reached_from_src_.at(dst) : CANNOT_REACH;
   }
 
 private:
   const int CANNOT_REACH = -1;
-  /// @note the index of the vector is the src flight
-  std::vector<std::unordered_map<int /* dst */, int /* price*/>> price_table_{};
-  /// @note the index of the vector is the src flight
-  std::vector<std::vector<std::unordered_map<int /* hop */, int /* price */>>>
-      cache_table_{};
+  /// @brief Price from source to all other nodes.
+  std::vector<int> reached_from_src_;
 
-  void buildPriceTable_(int n, const std::vector<std::vector<int>> &flights) {
-    price_table_.resize(n);
-    for (const auto &flight : flights) {
-      const int source = flight.at(0);
-      const int destination = flight.at(1);
-      const int price = flight.at(2);
-      price_table_.at(source).emplace(destination, price);
-    }
+  /// @return src, dst, price
+  std::tuple<int, int, int>
+  getFlightInfo_(const std::vector<int> &flight) const {
+    return {flight.at(0), flight.at(1), flight.at(2)};
   }
 
-  void initCacheTable_(int n) {
-    cache_table_ = std::vector<
-        std::vector<std::unordered_map<int /* hop */, int /* price */>>>(
-        n, std::vector<std::unordered_map<int /* hop */, int /* price */>>(n));
+  void initReached_(int num_of_cities, int src) {
+    reached_from_src_ =
+        std::vector<int>(num_of_cities, std::numeric_limits<int>::max());
+    reached_from_src_.at(src) = 0;
   }
 
-  int findCheapestPrice_(int src, int dst, int hop) {
-    const auto &cities = price_table_.at(src);
-    if (hop < 0 || cities.empty()) {
-      return CANNOT_REACH;
-    }
-    std::vector<int> prices{};
-    prices.reserve(cities.size());
-    for (const auto &city : cities) {
-      if (city.first == dst) {
-        prices.push_back(city.second);
-        continue;
-      }
-      int cheapest_price_from_city;
-      if (hasCache_(city.first, dst, hop - 1)) {
-        cheapest_price_from_city =
-            cache_table_.at(city.first).at(dst).at(hop - 1);
-      } else {
-        cheapest_price_from_city = findCheapestPrice_(city.first, dst, hop - 1);
-      }
-      if (cheapest_price_from_city != CANNOT_REACH) {
-        prices.push_back(city.second + cheapest_price_from_city);
-      }
-    }
-    const int cheapest_price =
-        prices.empty() ? CANNOT_REACH
-                       : *std::min_element(prices.begin(), prices.end());
-    addCache_(src, dst, hop, cheapest_price);
-    return cheapest_price;
-  }
-
-  bool hasCache_(int src, int dst, int hop) {
-    const auto &cache = cache_table_.at(src).at(dst);
-    return !cache.empty() && cache.count(hop);
-  }
-
-  void addCache_(int src, int dst, int hop, int price) {
-    cache_table_.at(src).at(dst).emplace(hop, price);
+  bool isReached_(int city) const {
+    return reached_from_src_.at(city) != std::numeric_limits<int>::max();
   }
 };
