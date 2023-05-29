@@ -66,7 +66,7 @@
 |724|[ Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[C++](./solutions/724.%20Find%20Pivot%20Index.cpp)|28 ms|
 |739|[ Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|[C++](./solutions/739.%20Daily%20Temperatures.cpp)|220 ms|
 |752|[ Open the Lock](https://leetcode.com/problems/open-the-lock/)|[C++](./solutions/752.%20Open%20the%20Lock.cpp)|354 ms|
-|787|[ Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)|[C++](./solutions/787.%20Cheapest%20Flights%20Within%20K%20Stops.cpp)|62 ms|
+|787|[ Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)|[C++](./solutions/787.%20Cheapest%20Flights%20Within%20K%20Stops.cpp)|22 ms|
 |804|[ Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|[C++](./solutions/804.%20Unique%20Morse%20Code%20Words.cpp)|0 ms|
 |867|[ Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[C++](./solutions/867.%20Transpose%20Matrix.cpp)|20 ms|
 |869|[ Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/)|[Java](./solutions/869.%20Reordered%20Power%20of%202.java)|624 ms|
