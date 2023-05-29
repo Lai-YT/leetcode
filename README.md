@@ -68,7 +68,7 @@
 |752|[ Open the Lock](https://leetcode.com/problems/open-the-lock/)|[C++](./solutions/752.%20Open%20the%20Lock.cpp)|354 ms|
 |787|[ Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)|[Rust](./solutions/787.%20Cheapest%20Flights%20Within%20K%20Stops.rs)|0 ms|
 |804|[ Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|[C++](./solutions/804.%20Unique%20Morse%20Code%20Words.cpp)|0 ms|
-|867|[ Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[C++](./solutions/867.%20Transpose%20Matrix.cpp)|20 ms|
+|867|[ Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[Rust](./solutions/867.%20Transpose%20Matrix.rs)|0 ms|
 |869|[ Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/)|[Java](./solutions/869.%20Reordered%20Power%20of%202.java)|624 ms|
 |912|[ Sort an Array](https://leetcode.com/problems/sort-an-array/)|[Rust](./solutions/912.%20Sort%20an%20Array.rs)| 995 ms|
 |965|[ Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|[C++](./solutions/965.%20Univalued%20Binary%20Tree.cpp)|0 ms|
