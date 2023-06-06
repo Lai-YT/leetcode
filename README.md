@@ -26,6 +26,7 @@
 |108|[ Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|[Java](./solutions/108.%20Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree.java)|0 ms|
 |111|[ Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[Rust](./solutions/111.%20Minimum%20Depth%20of%20Binary%20Tree.rs)|40 ms|
 |112|[ Path Sum](https://leetcode.com/problems/path-sum/)|[C++](./solutions/112.%20Path%20Sum.cpp)|16 ms|
+|119|[ Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[Rust](./solutions/119.%20Pascal's%20Triangle%20II.rs)|1 ms|
 |125|[ Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[C++](./solutions/125.%20Valid%20Palindrome.cpp)|4 ms|
 |133|[ Clone Graph](https://leetcode.com/problems/clone-graph/)|[Java](./solutions/133.%20Clone%20Graph.java)|44 ms|
 |136|[ Single Number](https://leetcode.com/problems/single-number/)|[Rust](./solutions/136.%20Single%20Number.rs)|0 ms|
