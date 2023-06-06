@@ -40,6 +40,7 @@
 |204|[ Count Primes](https://leetcode.com/problems/count-primes/)|[C](./solutions/204.%20Count%20Primes.c)|16 ms|
 |206|[ Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Rust](./solutions/206.%20Reverse%20Linked%20List.rs)|0 ms|
 |217|[ Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[C++](./solutions/217.%20Contains%20Duplicate.cpp)|64 ms|
+|219|[ 219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|[Rust](./solutions/219.%20Contains%20Duplicate%20II.rs)|17 ms|
 |225|[ Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[C++](./solutions/225.%20Implement%20Stack%20using%20Queues.cpp)|0 ms|
 |228|[ Summary Ranges](https://leetcode.com/problems/summary-ranges/)|[C++](./solutions/228.%20Summary%20Ranges.cpp)|0 ms|
 |232|[ Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Java](./solutions/232.%20Implement%20Queue%20using%20Stacks.java)|0 ms|
