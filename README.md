@@ -86,6 +86,7 @@
 |1318|[ Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/)|[Rust](./solutions/1318.%20Minimum%20Flips%20to%20Make%20a%20OR%20b%20Equal%20to%20c.rs)|1 ms|
 |1323|[ Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/)|[Python3](./solutions/1323.%20Maximum%2069%20Number.py)|28 ms|
 |1347|[ Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/)|[Python3](./solutions/1347.%20Minimum%20Number%20of%20Steps%20to%20Make%20Two%20Strings%20Anagram.py)|301 ms|
+|1351|[ Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)|[Rust](./solutions/1351.%20Count%20Negative%20Numbers%20in%20a%20Sorted%20Matrix.rs)|0 ms|
 |1365|[ How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)|[Python3](./solutions/1365.%20How%20Many%20Numbers%20Are%20Smaller%20Than%20the%20Current%20Number.py)|92 ms|
 |1376|[ Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/)|[Rust](./solutions/1376.%20Time%20Needed%20to%20Inform%20All%20Employees.rs)|25 ms|
 |1414|[ Find the Minimum Number of Fibonacci Numbers Whose Sum Is K](https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/)|[C++](./solutions/1414.%20Find%20the%20Minimum%20Number%20of%20Fibonacci%20Numbers%20Whose%20Sum%20Is%20K.cpp)|0 ms|
