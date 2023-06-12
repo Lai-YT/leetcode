@@ -1,27 +1,27 @@
 class Solution {
 public:
-    vector<string> summaryRanges(vector<int>& nums) {
-        vector<string> result{};    
-        if (nums.empty()) {
-            return result;
-        }
-        int head = 0;
-        for (int i = 1; i < nums.size(); ++i) {
-            if (nums.at(i)-1 != nums.at(i-1)) {
-                if (head != i-1) {
-                    result.push_back(to_string(nums.at(head)) + "->" + to_string(nums.at(i-1)));
-                } else {
-                    result.push_back(to_string(nums.at(head)));
-                }
-                head = i;
-            }
-        }
-        /* close the last possible range */
-        if (head != nums.size()-1) {
-            result.push_back(to_string(nums.at(head)) + "->" + to_string(nums.back()));
-        } else {
-            result.push_back(to_string(nums.at(head)));
-        }
-        return result;
-    }
+    std::vector<std::string> summaryRanges(std::vector<int>& nums) {
+        std::vector<std::string> ranges{};
+        std::size_t begin = 0;
+        for (std::size_t i = 0; i < nums.size(); i++) {
+            if (i + 1 == nums.size() || nums.at(i + 1) != nums.at(i) + 1) {
+                if (begin == i) {
+                    ranges.push_back(FormatString("%d", nums.at(i)));
+                } else {
+                    ranges.push_back(FormatString("%d->%d", nums.at(begin), nums.at(i)));
+                }
+                begin = i + 1;
+            }
+        }
+        return ranges;
+    }
+
+private:
+    template<typename ... Args>
+    std::string FormatString(const char* format, Args... args) {
+        const std::size_t strlen = std::snprintf(nullptr, 0, format, args...);
+        char buf[strlen + 1];
+        std::snprintf(buf, sizeof(buf), format, args...);
+        return buf;
+    }
 };
