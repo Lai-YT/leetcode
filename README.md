@@ -106,3 +106,4 @@
 |1773|[ Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/)|[C++](./solutions/1773.%20Count%20Items%20Matching%20a%20Rule.cpp)|71 ms|
 |1802|[ Maximum Value at a Given Index in a Bounded Array](https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/)|[Rust](./solutions/1802.%20Maximum%20Value%20at%20a%20Given%20Index%20in%20a%20Bounded%20Array.rs)|2 ms|
 |1971|[ Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/)|[Rust](./solutions/1971.%20Find%20if%20Path%20Exists%20in%20Graph.rs)|123 ms|
+|2352|[ Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/)|[Rust](./solutions/2352.%20Equal%20Row%20and%20Column%20Pairs.rs)|7 ms|
