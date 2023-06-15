@@ -24,6 +24,7 @@
 |101|[ Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|[Java](./solutions/101.%20Symmetric%20Tree.java)|1 ms|
 |104|[ Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[C++](./solutions/104.%20Maximum%20Depth%20of%20Binary%20Tree.cpp)|9 ms|
 |108|[ Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|[Java](./solutions/108.%20Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree.java)|0 ms|
+|110|[ Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[Rust](./solutions/110.%20Balanced%20Binary%20Tree.rs)|0 ms|
 |111|[ Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[Rust](./solutions/111.%20Minimum%20Depth%20of%20Binary%20Tree.rs)|40 ms|
 |112|[ Path Sum](https://leetcode.com/problems/path-sum/)|[C++](./solutions/112.%20Path%20Sum.cpp)|16 ms|
 |119|[ Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[Rust](./solutions/119.%20Pascal's%20Triangle%20II.rs)|1 ms|
