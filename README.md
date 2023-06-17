@@ -106,7 +106,7 @@
 |1528|[ Shuffle String](https://leetcode.com/problems/shuffle-string/)|[C++](./solutions/1528.%20Shuffle%20String.cpp)|12 ms|
 |1539|[ Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)|[Rust](./solutions/1539.%20Kth%20Missing%20Positive%20Number.rs)|0 ms|
 |1569|[ Number of Ways to Reorder Array to Get Same BST](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/)|[Rust](./solutions/1569.%20Number%20of%20Ways%20to%20Reorder%20Array%20to%20Get%20Same%20BST.rs)|48 ms|
-|1672|[ Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)|[C++](./solutions/1672.%20Richest%20Customer%20Wealth.cpp)|3 ms|
+|1672|[ Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)|[Rust](./solutions/1672.%20Richest%20Customer%20Wealth.rs)|0 ms|
 |1689|[ Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/)|[C++](./solutions/1689.%20Partitioning%20Into%20Minimum%20Number%20Of%20Deci-Binary%20Numbers.cpp)|32 ms|
 |1773|[ Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/)|[C++](./solutions/1773.%20Count%20Items%20Matching%20a%20Rule.cpp)|71 ms|
 |1802|[ Maximum Value at a Given Index in a Bounded Array](https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/)|[Rust](./solutions/1802.%20Maximum%20Value%20at%20a%20Given%20Index%20in%20a%20Bounded%20Array.rs)|2 ms|
