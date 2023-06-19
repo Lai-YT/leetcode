@@ -93,6 +93,7 @@
 |1266|[ Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/)|[C++](./solutions/1266.%20Minimum%20Time%20Visiting%20All%20Points.cpp)|3 ms|
 |1318|[ Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/)|[Rust](./solutions/1318.%20Minimum%20Flips%20to%20Make%20a%20OR%20b%20Equal%20to%20c.rs)|1 ms|
 |1323|[ Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/)|[Python3](./solutions/1323.%20Maximum%2069%20Number.py)|28 ms|
+|1342|[ Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)|[C](./solutions/1342.%20Number%20of%20Steps%20to%20Reduce%20a%20Number%20to%20Zero.c)|0 ms|
 |1347|[ Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/)|[Python3](./solutions/1347.%20Minimum%20Number%20of%20Steps%20to%20Make%20Two%20Strings%20Anagram.py)|301 ms|
 |1351|[ Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)|[Rust](./solutions/1351.%20Count%20Negative%20Numbers%20in%20a%20Sorted%20Matrix.rs)|0 ms|
 |1365|[ How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)|[Python3](./solutions/1365.%20How%20Many%20Numbers%20Are%20Smaller%20Than%20the%20Current%20Number.py)|92 ms|
