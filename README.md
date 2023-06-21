@@ -79,6 +79,7 @@
 |867|[ Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[Rust](./solutions/867.%20Transpose%20Matrix.rs)|0 ms|
 |869|[ Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/)|[Java](./solutions/869.%20Reordered%20Power%20of%202.java)|624 ms|
 |875|[ Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)|[Rust](./solutions/875.%20Koko%20Eating%20Bananas.rs)|7 ms|
+|876|[ Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Rust](./solutions/876.%20Middle%20of%20the%20Linked%20List.rs)|0 ms|
 |912|[ Sort an Array](https://leetcode.com/problems/sort-an-array/)|[Rust](./solutions/912.%20Sort%20an%20Array.rs)| 995 ms|
 |965|[ Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|[C++](./solutions/965.%20Univalued%20Binary%20Tree.cpp)|0 ms|
 |977|[ Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[C++](./solutions/977.%20Squares%20of%20a%20Sorted%20Array.cpp)|26 ms|
