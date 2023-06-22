@@ -56,6 +56,7 @@
 |347|[ Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[Rust](./solutions/347.%20Top%20K%20Frequent%20Elements.rs)|0 ms|
 |349|[ Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[C++](./solutions/349.%20Intersection%20of%20Two%20Arrays.cpp)|8 ms|
 |367|[ Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[C++](./solutions/367.%20Valid%20Perfect%20Square.cpp)|0 ms|
+|383|[ Ransom Note](https://leetcode.com/problems/ransom-note/)|[Rust](./solutions/383.%20Ransom%20Note.rs)|0 ms|
 |412|[ Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|[Rust](./solutions/412.%20Fizz%20Buzz.rs)|0 ms|
 |415|[ Add Strings](https://leetcode.com/problems/add-strings/)|[C++](./solutions/415.%20Add%20Strings.cpp)|0 ms|
 |429|[ N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)|[C++](./solutions/429.%20N-ary%20Tree%20Level%20Order%20Traversal.cpp)|20 ms|
