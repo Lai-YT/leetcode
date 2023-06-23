@@ -8,6 +8,7 @@
 |8|[ String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|[Rust](./solutions/8.%20String%20to%20Integer%20(atoi).rs)|0 ms|
 |9|[ Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Rust](./solutions/9.%20Palindrome%20Number.rs)|7 ms|
 |11|[ Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[C++](./solutions/11.%20Container%20With%20Most%20Water.cpp)|102 ms|
+|12|[ Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[Rust](./solutions/12.%20Integer%20to%20Roman.rs)|0 ms|
 |13|[ Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[C++](./solutions/13.%20Roman%20to%20Integer.cpp)|4 ms|
 |14|[ Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[Rust](./solutions/14.%20Longest%20Common%20Prefix.rs)|1 ms|
 |20|[ Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[C++](./solutions/20.%20Valid%20Parentheses.cpp)|0 ms|
