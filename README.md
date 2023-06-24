@@ -84,7 +84,8 @@
 |869|[ Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/)|[Java](./solutions/869.%20Reordered%20Power%20of%202.java)|624 ms|
 |875|[ Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)|[Rust](./solutions/875.%20Koko%20Eating%20Bananas.rs)|7 ms|
 |876|[ Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Rust](./solutions/876.%20Middle%20of%20the%20Linked%20List.rs)|0 ms|
-|912|[ Sort an Array](https://leetcode.com/problems/sort-an-array/)|[Rust](./solutions/912.%20Sort%20an%20Array.rs)| 995 ms|
+|912|[ Sort an Array](https://leetcode.com/problems/sort-an-array/)|[Rust](./solutions/912.%20Sort%20an%20Array.rs)|995 ms|
+|956|[ Tallest Billboard](https://leetcode.com/problems/tallest-billboard/)|[Rust](./solutions/956.%20Tallest%20Billboard.rs)|195 ms|
 |965|[ Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|[C++](./solutions/965.%20Univalued%20Binary%20Tree.cpp)|0 ms|
 |977|[ Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[C++](./solutions/977.%20Squares%20of%20a%20Sorted%20Array.cpp)|26 ms|
 |997|[ Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)|[C++](./solutions/997.%20Find%20the%20Town%20Judge.cpp)|196 ms|
