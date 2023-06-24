@@ -1,49 +1,37 @@
-use std::collections::{HashMap, HashSet};
+use std::collections::HashMap;
 
 impl Solution {
-    /// Meet in the Middle.
-    /// Time complexity: O(3 ^ (n / 2)), exponential time.
-    /// Space complexity: O(3 ^ (n / 2)).
+    /// Dynamic programming.
+    /// Time complexity: O(n * m);
+    /// Space complexity: O(m);
+    /// where n and m is the number of rods and the sum of the length of rods, respectively.
     pub fn tallest_billboard(rods: Vec<i32>) -> i32 {
-        let first_differences =
-            Self::get_differences(&Self::get_combinations(&rods[0..rods.len() / 2]));
-        let second_differences =
-            Self::get_differences(&Self::get_combinations(&rods[rods.len() / 2..]));
-        let mut max = 0;
-        for (diff, first_left) in first_differences {
-            if let Some(second_left) = second_differences.get(&(-1 * diff) /* compensate */) {
-                max = max.max(first_left + second_left);
-            }
-        }
-        max
-    }
-
-    fn get_combinations(rods: &[i32]) -> HashSet<(i32, i32)> {
-        let mut states = HashSet::<(i32 /* left */, i32 /* right */)>::new();
-        states.insert((0, 0));
+        let mut diffs_to_taller = HashMap::<i32, i32>::new();
+        // shorter = taller = 0
+        diffs_to_taller.insert(0, 0);
         for rod in rods {
-            let mut new_states = HashSet::<(i32, i32)>::new();
-            for &(left, right) in &states {
-                // 1. add to left
-                new_states.insert((left + rod, right));
-                // 2. add to right
-                new_states.insert((left, right + rod));
-                // 3. throw away, no new state
+            let old_diffs_to_taller = diffs_to_taller.clone();
+            for (diff, taller) in &old_diffs_to_taller {
+                // 1. add to taller
+                {
+                    let new_taller = taller + rod;
+                    diffs_to_taller
+                        .entry(diff + rod)
+                        .and_modify(|old_taller| *old_taller = new_taller.max(*old_taller))
+                        .or_insert(new_taller);
+                }
+                // 2. add to shorter
+                {
+                    let shorter = taller - diff;
+                    let new_taller = (shorter + rod).max(*taller);
+                    diffs_to_taller
+                        .entry((taller - (shorter + rod)).abs())
+                        .and_modify(|old_taller| *old_taller = new_taller.max(*old_taller))
+                        .or_insert(new_taller);
+                }
+                // 3. throw away
             }
-            states.extend(&new_states);
         }
-        states
-    }
-
-    fn get_differences(states: &HashSet<(i32, i32)>) -> HashMap<i32, i32> {
-        let mut differences = HashMap::<i32 /* difference */, i32 /* length of left */>::new();
-        for &(left, right) in states {
-            differences
-                .entry(left - right)
-                // we only want the maximum value
-                .and_modify(|length| *length = left.max(*length))
-                .or_insert(left);
-        }
-        differences
+        *diffs_to_taller.get(&0).unwrap()
     }
 }
