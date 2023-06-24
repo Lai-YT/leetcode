@@ -123,5 +123,6 @@
 |1802|[ Maximum Value at a Given Index in a Bounded Array](https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/)|[Rust](./solutions/1802.%20Maximum%20Value%20at%20a%20Given%20Index%20in%20a%20Bounded%20Array.rs)|2 ms|
 |1971|[ Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/)|[Rust](./solutions/1971.%20Find%20if%20Path%20Exists%20in%20Graph.rs)|123 ms|
 |2090|[ K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages/)|[Rust](./solutions/2090.%20K%20Radius%20Subarray%20Averages.rs)|64 ms|
+|2101|[ Detonate the Maximum Bombs](https://leetcode.com/problems/detonate-the-maximum-bombs/)|[Rust](./solutions/2101.%20Detonate%20the%20Maximum%20Bombs.rs)|303 ms|
 |2328|[ Number of Increasing Paths in a Grid](https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/)|[Rust](./solutions/2328.%20Number%20of%20Increasing%20Paths%20in%20a%20Grid.rs)|231 ms|
 |2352|[ Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/)|[Rust](./solutions/2352.%20Equal%20Row%20and%20Column%20Pairs.rs)|7 ms|
