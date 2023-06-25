@@ -40,6 +40,7 @@
 |169|[ Majority Element](https://leetcode.com/problems/majority-element/)|[Rust](./solutions/169.%20Majority%20Element.rs)|0 ms|
 |171|[ Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)|[C++](./solutions/171.%20Excel%20Sheet%20Column%20Number.cpp)|0 ms|
 |191|[ Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[C++](./solutions/191.%20Number%20of%201%20Bits.cpp)|0 ms|
+|192|[ Word Frequency](https://leetcode.com/problems/word-frequency/)|[Bash](./solutions/192.%20Word%20Frequency.sh)|87 ms|
 |200|[ Number of Islands](https://leetcode.com/problems/number-of-islands/)|[Python3](./solutions/200.%20Number%20of%20Islands.py)|358 ms|
 |204|[ Count Primes](https://leetcode.com/problems/count-primes/)|[C](./solutions/204.%20Count%20Primes.c)|16 ms|
 |206|[ Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Rust](./solutions/206.%20Reverse%20Linked%20List.rs)|0 ms|
