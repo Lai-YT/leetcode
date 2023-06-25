@@ -127,3 +127,4 @@
 |2101|[ Detonate the Maximum Bombs](https://leetcode.com/problems/detonate-the-maximum-bombs/)|[Rust](./solutions/2101.%20Detonate%20the%20Maximum%20Bombs.rs)|24 ms|
 |2328|[ Number of Increasing Paths in a Grid](https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/)|[Rust](./solutions/2328.%20Number%20of%20Increasing%20Paths%20in%20a%20Grid.rs)|231 ms|
 |2352|[ Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/)|[Rust](./solutions/2352.%20Equal%20Row%20and%20Column%20Pairs.rs)|7 ms|
+|2448|[ Minimum Cost to Make Array Equal](https://leetcode.com/problems/minimum-cost-to-make-array-equal/)|[Rust](./solutions/2448.%20Minimum%20Cost%20to%20Make%20Array%20Equal.rs)|9 ms|
