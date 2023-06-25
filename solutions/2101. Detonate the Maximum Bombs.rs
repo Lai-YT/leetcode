@@ -1,10 +1,20 @@
-use std::collections::{HashMap, HashSet, VecDeque};
-
-#[derive(Clone, Copy, PartialEq, Eq, Hash, Debug)]
 struct Bomb {
     x: usize,
     y: usize,
     r: i32,
+}
+
+impl From<Vec<i32>> for Bomb {
+    fn from(bomb: Vec<i32>) -> Self {
+        match bomb[..] {
+            [x, y, r] => Self {
+                x: x as usize,
+                y: y as usize,
+                r,
+            },
+            _ => panic!(),
+        }
+    }
 }
 
 impl Bomb {
@@ -21,30 +31,19 @@ impl Solution {
     // Time complexity: O(n ^ 3), worse case scenario: complete graph;
     // Space complexity: O(n ^ 2).
     pub fn maximum_detonation(bombs: Vec<Vec<i32>>) -> i32 {
-        let mut bombs_in_range = HashMap::<Bomb, Vec<Bomb>>::new();
-        // Since there may be multiple bombs with same x, y and r, we'll have to record the occurrences.
-        let mut identical_bombs = HashMap::<Bomb, i32 /* occurrence */>::new();
+        let bombs = bombs.into_iter().map(Bomb::from).collect::<Vec<_>>();
+        // Instead of using the (x, y) coordinate and r to identify a bomb, we can use the index in bombs.
+        // This makes every bombs unique from each other, and hash map can be replaced by a simple array.
+        let mut bombs_in_range = vec![Vec::<usize>::new(); bombs.len()];
         // 1. Collect reachable bombs of all bombs.
         // Time complexity: O(n ^ 2).
         for i in 0..bombs.len() {
-            let bomb = Bomb {
-                x: bombs[i][0] as usize,
-                y: bombs[i][1] as usize,
-                r: bombs[i][2],
-            };
-            *identical_bombs.entry(bomb).or_insert(0) += 1;
-            bombs_in_range.insert(bomb, Vec::new());
             for j in 0..i {
-                let other_bomb = Bomb {
-                    x: bombs[j][0] as usize,
-                    y: bombs[j][1] as usize,
-                    r: bombs[j][2],
-                };
-                if bomb.is_in_range_of(&other_bomb) {
-                    bombs_in_range.get_mut(&other_bomb).unwrap().push(bomb);
+                if bombs[i].is_in_range_of(&bombs[j]) {
+                    bombs_in_range[j].push(i);
                 }
-                if other_bomb.is_in_range_of(&bomb) {
-                    bombs_in_range.get_mut(&bomb).unwrap().push(other_bomb);
+                if bombs[j].is_in_range_of(&bombs[i]) {
+                    bombs_in_range[i].push(j);
                 }
             }
         }
@@ -52,26 +51,18 @@ impl Solution {
         // Time complexity: O(n ^ 3).
         let mut max_num_of_denoted_bombs = 0;
         for i in 0..bombs.len() {
-            let init = Bomb {
-                x: bombs[i][0] as usize,
-                y: bombs[i][1] as usize,
-                r: bombs[i][2],
-            };
-            let mut denoted = HashSet::<Bomb>::from([init]);
-            let mut stack = VecDeque::<Bomb>::from([init]);
-            let mut num_of_denoted_bombs = *identical_bombs.get(&init).unwrap();
-            while !stack.is_empty() {
-                let bomb = stack.pop_front().unwrap();
-                for bomb_in_range in bombs_in_range.get(&bomb).unwrap() {
-                    if !denoted.contains(&bomb_in_range) {
-                        stack.push_front(*bomb_in_range);
-                        denoted.insert(*bomb_in_range);
-                        num_of_denoted_bombs += identical_bombs.get(bomb_in_range).unwrap();
-                    }
+            let mut denoted = vec![false; bombs.len()];
+            let mut stack = Vec::<usize>::from([i]);
+            while let Some(bomb) = stack.pop() {
+                if denoted[bomb] {
+                    continue;
                 }
+                denoted[bomb] = true;
+                stack.extend(bombs_in_range[bomb].iter().filter(|&b| !denoted[*b]));
             }
-            max_num_of_denoted_bombs = max_num_of_denoted_bombs.max(num_of_denoted_bombs);
+            max_num_of_denoted_bombs =
+                max_num_of_denoted_bombs.max(denoted.iter().filter(|&d| *d).count());
         }
-        max_num_of_denoted_bombs
+        max_num_of_denoted_bombs as i32
     }
 }
