@@ -47,22 +47,22 @@ impl Solution {
                 }
             }
         }
-        // 2. Perform depth-first search on all bombs to obtain how many bombs can be denoted.
+        // 2. Perform depth-first search on all bombs to obtain how many bombs can be detonated.
         // Time complexity: O(n ^ 3).
-        let mut max_num_of_denoted_bombs = 0;
+        let mut max_num_of_detonated_bombs = 0;
         for i in 0..bombs.len() {
-            let mut denoted = vec![false; bombs.len()];
+            let mut detonated = vec![false; bombs.len()];
             let mut stack = Vec::<usize>::from([i]);
             while let Some(bomb) = stack.pop() {
-                if denoted[bomb] {
+                if detonated[bomb] {
                     continue;
                 }
-                denoted[bomb] = true;
-                stack.extend(bombs_in_range[bomb].iter().filter(|&b| !denoted[*b]));
+                detonated[bomb] = true;
+                stack.extend(bombs_in_range[bomb].iter().filter(|&b| !detonated[*b]));
             }
-            max_num_of_denoted_bombs =
-                max_num_of_denoted_bombs.max(denoted.iter().filter(|&d| *d).count());
+            max_num_of_detonated_bombs =
+                max_num_of_detonated_bombs.max(detonated.iter().filter(|&d| *d).count());
         }
-        max_num_of_denoted_bombs as i32
+        max_num_of_detonated_bombs as i32
     }
 }
