@@ -129,3 +129,4 @@
 |2328|[ Number of Increasing Paths in a Grid](https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/)|[Rust](./solutions/2328.%20Number%20of%20Increasing%20Paths%20in%20a%20Grid.rs)|231 ms|
 |2352|[ Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/)|[Rust](./solutions/2352.%20Equal%20Row%20and%20Column%20Pairs.rs)|7 ms|
 |2448|[ Minimum Cost to Make Array Equal](https://leetcode.com/problems/minimum-cost-to-make-array-equal/)|[Rust](./solutions/2448.%20Minimum%20Cost%20to%20Make%20Array%20Equal.rs)|9 ms|
+|2462|[ Total Cost to Hire K Workers](https://leetcode.com/problems/total-cost-to-hire-k-workers/)|[Rust](./solutions/2462.%20Total%20Cost%20to%20Hire%20K%20Workers.rs)|27 ms|
