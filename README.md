@@ -75,7 +75,7 @@
 |682|[ Baseball Game](https://leetcode.com/problems/baseball-game/)|[Python3](./solutions/682.%20Baseball%20Game.py)|32 ms|
 |690|[ Employee Importance](https://leetcode.com/problems/employee-importance/)|[Python3](./solutions/690.%20Employee%20Importance.py)|200 ms|
 |714|[ Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|[Rust](./solutions/714.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Transaction%20Fee.rs)|7 ms|
-|724|[ Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[C++](./solutions/724.%20Find%20Pivot%20Index.cpp)|28 ms|
+|724|[ Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[Rust](./solutions/724.%20Find%20Pivot%20Index.rs)|0 ms|
 |739|[ Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|[C++](./solutions/739.%20Daily%20Temperatures.cpp)|220 ms|
 |744|[ Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)|[Rust](./solutions/744.%20Find%20Smallest%20Letter%20Greater%20Than%20Target.rs)|3 ms|
 |752|[ Open the Lock](https://leetcode.com/problems/open-the-lock/)|[C++](./solutions/752.%20Open%20the%20Lock.cpp)|354 ms|
