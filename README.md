@@ -59,6 +59,7 @@
 |347|[ Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[Rust](./solutions/347.%20Top%20K%20Frequent%20Elements.rs)|0 ms|
 |349|[ Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[C++](./solutions/349.%20Intersection%20of%20Two%20Arrays.cpp)|8 ms|
 |367|[ Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[C++](./solutions/367.%20Valid%20Perfect%20Square.cpp)|0 ms|
+|373|[ Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)|[Rust](./solutions/373.%20Find%20K%20Pairs%20with%20Smallest%20Sums.rs)|49 ms|
 |383|[ Ransom Note](https://leetcode.com/problems/ransom-note/)|[Rust](./solutions/383.%20Ransom%20Note.rs)|0 ms|
 |412|[ Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|[Rust](./solutions/412.%20Fizz%20Buzz.rs)|0 ms|
 |415|[ Add Strings](https://leetcode.com/problems/add-strings/)|[C++](./solutions/415.%20Add%20Strings.cpp)|0 ms|
