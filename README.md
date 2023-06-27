@@ -19,6 +19,7 @@
 |35|[ Search Insert Position](https://leetcode.com/problems/search-insert-position/)|[C++](./solutions/35.%20Search%20Insert%20Position.cpp)|5 ms|
 |38|[ Count and Say](https://leetcode.com/problems/count-and-say/)|[C++](./solutions/38.%20Count%20and%20Say.cpp)|8 ms|
 |58|[ Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|[C++](./solutions/58.%20Length%20of%20Last%20Word.cpp)|3 ms|
+|66|[ Plus One](https://leetcode.com/problems/plus-one/)|[Rust](./solutions/66.%20Plus%20One.rs)|0 ms|
 |67|[ Add Binary](https://leetcode.com/problems/add-binary/)|[C++](./solutions/67.%20Add%20Binary.cpp)|4 ms|
 |69|[ Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[Rust](./solutions/69.%20Sqrt(x).rs)|0 ms|
 |70|[ Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[C++](./solutions/70.%20Climbing%20Stairs.cpp)|0 ms|
