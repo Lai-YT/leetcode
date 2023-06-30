@@ -128,6 +128,7 @@
 |1732|[ Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/)|[Rust](./solutions/1732.%20Find%20the%20Highest%20Altitude.rs)|0 ms|
 |1773|[ Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/)|[Rust](./solutions/1773.%20Count%20Items%20Matching%20a%20Rule.rs)|5 ms|
 |1802|[ Maximum Value at a Given Index in a Bounded Array](https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/)|[Rust](./solutions/1802.%20Maximum%20Value%20at%20a%20Given%20Index%20in%20a%20Bounded%20Array.rs)|2 ms|
+|1970|[ Last Day Where You Can Still Cross](https://leetcode.com/problems/last-day-where-you-can-still-cross/)|[Rust](./solutions/1970.%20Last%20Day%20Where%20You%20Can%20Still%20Cross.rs)|86 ms|
 |1971|[ Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/)|[Rust](./solutions/1971.%20Find%20if%20Path%20Exists%20in%20Graph.rs)|123 ms|
 |2090|[ K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages/)|[Rust](./solutions/2090.%20K%20Radius%20Subarray%20Averages.rs)|64 ms|
 |2101|[ Detonate the Maximum Bombs](https://leetcode.com/problems/detonate-the-maximum-bombs/)|[Rust](./solutions/2101.%20Detonate%20the%20Maximum%20Bombs.rs)|24 ms|
