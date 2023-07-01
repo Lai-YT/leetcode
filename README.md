@@ -68,6 +68,7 @@
 |443|[ String Compression](https://leetcode.com/problems/string-compression/)|[C++](./solutions/443.%20String%20Compression.cpp)|0 ms|
 |494|[ Target Sum](https://leetcode.com/problems/target-sum/)|[C++](./solutions/494.%20Target%20Sum.cpp)|31 ms|
 |500|[ Keyboard Row](https://leetcode.com/problems/keyboard-row/)|[Java](./solutions/500.%20Keyboard%20Row.java)|0 ms|
+|504|[ Base 7](https://leetcode.com/problems/base-7/)|[Rust](./solutions/504.%20Base%207.rs)|1 ms|
 |509|[ Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[C++](./solutions/509.%20Fibonacci%20Number.cpp)|0 ms|
 |530|[ Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)|[Rust](./solutions/530.%20Minimum%20Absolute%20Difference%20in%20BST.rs)|0 ms|
 |547|[ Number of Provinces](https://leetcode.com/problems/number-of-provinces/)|[Rust](./solutions/547.%20Number%20of%20Provinces.rs)|4 ms|
