@@ -66,6 +66,7 @@
 |415|[ Add Strings](https://leetcode.com/problems/add-strings/)|[C++](./solutions/415.%20Add%20Strings.cpp)|0 ms|
 |429|[ N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)|[C++](./solutions/429.%20N-ary%20Tree%20Level%20Order%20Traversal.cpp)|20 ms|
 |443|[ String Compression](https://leetcode.com/problems/string-compression/)|[C++](./solutions/443.%20String%20Compression.cpp)|0 ms|
+|450|[ Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)|[C](./solutions/450.%20Delete%20Node%20in%20a%20BST.c)|16 ms|
 |494|[ Target Sum](https://leetcode.com/problems/target-sum/)|[C++](./solutions/494.%20Target%20Sum.cpp)|31 ms|
 |500|[ Keyboard Row](https://leetcode.com/problems/keyboard-row/)|[Java](./solutions/500.%20Keyboard%20Row.java)|0 ms|
 |504|[ Base 7](https://leetcode.com/problems/base-7/)|[Rust](./solutions/504.%20Base%207.rs)|1 ms|
