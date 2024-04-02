@@ -46,6 +46,7 @@
 |192|[ Word Frequency](https://leetcode.com/problems/word-frequency/)|[Bash](./solutions/192.%20Word%20Frequency.sh)|87 ms|
 |200|[ Number of Islands](https://leetcode.com/problems/number-of-islands/)|[Python3](./solutions/200.%20Number%20of%20Islands.py)|358 ms|
 |204|[ Count Primes](https://leetcode.com/problems/count-primes/)|[C](./solutions/204.%20Count%20Primes.c)|16 ms|
+|205|[ Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Go](./solutions/205.%20Isomorphic%20Strings.go)|3 ms|
 |206|[ Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Rust](./solutions/206.%20Reverse%20Linked%20List.rs)|0 ms|
 |217|[ Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[C++](./solutions/217.%20Contains%20Duplicate.cpp)|64 ms|
 |219|[ 219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|[Rust](./solutions/219.%20Contains%20Duplicate%20II.rs)|17 ms|
