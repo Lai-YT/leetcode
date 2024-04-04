@@ -131,6 +131,7 @@
 |1539|[ Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)|[Rust](./solutions/1539.%20Kth%20Missing%20Positive%20Number.rs)|0 ms|
 |1569|[ Number of Ways to Reorder Array to Get Same BST](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/)|[Rust](./solutions/1569.%20Number%20of%20Ways%20to%20Reorder%20Array%20to%20Get%20Same%20BST.rs)|48 ms|
 |1575|[ Count All Possible Routes](https://leetcode.com/problems/count-all-possible-routes/)|[Rust](./solutions/1575.%20Count%20All%20Possible%20Routes.rs)|34 ms|
+|1614|[ Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/)|[C++](./solutions/1614.%20Maximum%20Nesting%20Depth%20of%20the%20Parentheses.cpp)|0 ms|
 |1672|[ Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)|[Rust](./solutions/1672.%20Richest%20Customer%20Wealth.rs)|0 ms|
 |1689|[ Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/)|[C++](./solutions/1689.%20Partitioning%20Into%20Minimum%20Number%20Of%20Deci-Binary%20Numbers.cpp)|32 ms|
 |1732|[ Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/)|[Rust](./solutions/1732.%20Find%20the%20Highest%20Altitude.rs)|0 ms|
