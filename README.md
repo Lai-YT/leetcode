@@ -129,6 +129,7 @@
 |1514|[ Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/)|[Rust](./solutions/1514.%20Path%20with%20Maximum%20Probability.rs)|21 ms|
 |1528|[ Shuffle String](https://leetcode.com/problems/shuffle-string/)|[C++](./solutions/1528.%20Shuffle%20String.cpp)|12 ms|
 |1539|[ Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)|[Rust](./solutions/1539.%20Kth%20Missing%20Positive%20Number.rs)|0 ms|
+|1544|[ Make The String Great](https://leetcode.com/problems/make-the-string-great/)|[Go](./solutions/1544.%20Make%20The%20String%20Great.go)|0 ms|
 |1569|[ Number of Ways to Reorder Array to Get Same BST](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/)|[Rust](./solutions/1569.%20Number%20of%20Ways%20to%20Reorder%20Array%20to%20Get%20Same%20BST.rs)|48 ms|
 |1575|[ Count All Possible Routes](https://leetcode.com/problems/count-all-possible-routes/)|[Rust](./solutions/1575.%20Count%20All%20Possible%20Routes.rs)|34 ms|
 |1614|[ Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/)|[C++](./solutions/1614.%20Maximum%20Nesting%20Depth%20of%20the%20Parentheses.cpp)|0 ms|
