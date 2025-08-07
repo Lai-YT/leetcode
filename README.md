@@ -3,6 +3,7 @@
 | # | Title | Solution | Runtime |
 |---| ----- | -------- | ------- |
 |1|[ Two Sum](https://leetcode.com/problems/two-sum/)|[Rust](./solutions/1.%20Two%20Sum.rs)|0 ms|
+|4|[ Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[C++](./solutions/4.%20Median%20of%20Two%20Sorted%20Arrays.cpp)|0 ms|
 |5|[ Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[Rust](./solutions/5.%20Longest%20Palindromic%20Substring.rs)|6 ms|
 |6|[ Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/)|[Java](./solutions/6.%20Zigzag%20Conversion.java)|6 ms|
 |8|[ String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|[Rust](./solutions/8.%20String%20to%20Integer%20(atoi).rs)|0 ms|
