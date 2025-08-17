@@ -110,6 +110,7 @@
 |1137|[ N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)|[C++](./solutions/1137.%20N-th%20Tribonacci%20Number.cpp)|0 ms|
 |1146|[ Snapshot Array](https://leetcode.com/problems/snapshot-array/)|[Rust](./solutions/1146.%20Snapshot%20Array.rs)|83 ms|
 |1161|[ Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/)|[Rust](./solutions/1161.%20Maximum%20Level%20Sum%20of%20a%20Binary%20Tree.rs)|22 ms|
+|1162|[ As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/)|[C++](./solutions/1162.%20As%20Far%20from%20Land%20as%20Possible.cpp)|14 ms|
 |1184|[ Distance Between Bus Stops](https://leetcode.com/problems/distance-between-bus-stops/)|[Rust](./solutions/1184.%20Distance%20Between%20Bus%20Stops.rs)|1 ms|
 |1187|[ Make Array Strictly Increasing](https://leetcode.com/problems/make-array-strictly-increasing/)|[C++](./solutions/1187.%20Make%20Array%20Strictly%20Increasing.cpp)|107 ms|
 |1189|[ Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/)|[C++](./solutions/1189.%20Maximum%20Number%20of%20Balloons.cpp)|0 ms|
