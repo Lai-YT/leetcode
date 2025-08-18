@@ -87,6 +87,7 @@
 |606|[ Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/)|[C++](./solutions/606.%20Construct%20String%20from%20Binary%20Tree.cpp)|0 ms|
 |622|[ Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)|[C++](./solutions/622.%20Design%20Circular%20Queue.cpp)|20 ms|
 |659|[ Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)|[Java](./solutions/659.%20Split%20Array%20into%20Consecutive%20Subsequences.java)|1 ms|
+|679|[ 24 Game](https://leetcode.com/problems/24-game/)|[C++](./solutions/679.%2024%20Game.cpp)|0 ms|
 |682|[ Baseball Game](https://leetcode.com/problems/baseball-game/)|[Python3](./solutions/682.%20Baseball%20Game.py)|32 ms|
 |690|[ Employee Importance](https://leetcode.com/problems/employee-importance/)|[Python3](./solutions/690.%20Employee%20Importance.py)|200 ms|
 |714|[ Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|[Rust](./solutions/714.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Transaction%20Fee.rs)|7 ms|
