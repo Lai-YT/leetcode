@@ -122,6 +122,7 @@
 |1232|[ Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)|[Rust](./solutions/1232.%20Check%20If%20It%20Is%20a%20Straight%20Line.rs)|0 ms|
 |1249|[ Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|[Rust](./solutions/1249.%20Minimum%20Remove%20to%20Make%20Valid%20Parentheses.rs)|4 ms|
 |1266|[ Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/)|[C++](./solutions/1266.%20Minimum%20Time%20Visiting%20All%20Points.cpp)|3 ms|
+|1277|[ Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/)|[C](./solutions/1277.%20Count%20Square%20Submatrices%20with%20All%20Ones.c)|0 ms|
 |1318|[ Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/)|[Rust](./solutions/1318.%20Minimum%20Flips%20to%20Make%20a%20OR%20b%20Equal%20to%20c.rs)|1 ms|
 |1323|[ Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/)|[Python3](./solutions/1323.%20Maximum%2069%20Number.py)|28 ms|
 |1342|[ Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)|[Rust](./solutions/1342.%20Number%20of%20Steps%20to%20Reduce%20a%20Number%20to%20Zero.rs)|0 ms|
