@@ -161,3 +161,4 @@
 |2448|[ Minimum Cost to Make Array Equal](https://leetcode.com/problems/minimum-cost-to-make-array-equal/)|[Rust](./solutions/2448.%20Minimum%20Cost%20to%20Make%20Array%20Equal.rs)|9 ms|
 |2462|[ Total Cost to Hire K Workers](https://leetcode.com/problems/total-cost-to-hire-k-workers/)|[Rust](./solutions/2462.%20Total%20Cost%20to%20Hire%20K%20Workers.rs)|27 ms|
 |2662|[ Minimum Cost of a Path With Special Roads](https://leetcode.com/problems/minimum-cost-of-a-path-with-special-roads/)|[C++](./solutions/2662.%20Minimum%20Cost%20of%20a%20Path%20With%20Special%20Roads.cpp)|153 ms|
+|3195|[ Find the Minimum Area to Cover All Ones I](https://leetcode.com/problems/find-the-minimum-area-to-cover-all-ones-i/)|[Python3](./solutions/3195.%20Find%20the%20Minimum%20Area%20to%20Cover%20All%20Ones%20I.py)|2526 ms|
