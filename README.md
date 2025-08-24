@@ -135,6 +135,7 @@
 |1470|[ Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)|[C++](./solutions/1470.%20Shuffle%20the%20Array.cpp)|5 ms|
 |1475|[ Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/)|[C](./solutions/1475.%20Final%20Prices%20With%20a%20Special%20Discount%20in%20a%20Shop.c)|8 ms|
 |1480|[ Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[C++](./solutions/1480.%20Running%20Sum%20of%201d%20Array.cpp)|2 ms|
+|1493|[ Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/)|[C++](./solutions/1493.%20Longest%20Subarray%20of%201's%20After%20Deleting%20One%20Element.cpp)|0 ms|
 |1502|[ Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)|[Rust](./solutions/1502.%20Can%20Make%20Arithmetic%20Progression%20From%20Sequence.rs)|1 ms|
 |1504|[ Count Submatrices With All Ones](https://leetcode.com/problems/count-submatrices-with-all-ones/)|[C++](./solutions/1504.%20Count%20Submatrices%20With%20All%20Ones.cpp)|7 ms|
 |1512|[ Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)|[C++](./solutions/1512.%20Number%20of%20Good%20Pairs.cpp)|0 ms|
