@@ -79,6 +79,7 @@
 |450|[ Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)|[C](./solutions/450.%20Delete%20Node%20in%20a%20BST.c)|16 ms|
 |494|[ Target Sum](https://leetcode.com/problems/target-sum/)|[C++](./solutions/494.%20Target%20Sum.cpp)|31 ms|
 |496|[ Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[C++](./solutions/496.%20Next%20Greater%20Element%20I.cpp)|0 ms|
+|498|[ Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|[C++](./solutions/498.%20Diagonal%20Traverse.cpp)|0 ms|
 |500|[ Keyboard Row](https://leetcode.com/problems/keyboard-row/)|[Java](./solutions/500.%20Keyboard%20Row.java)|0 ms|
 |503|[ Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)|[C++](./solutions/503.%20Next%20Greater%20Element%20II.cpp)|0 ms|
 |504|[ Base 7](https://leetcode.com/problems/base-7/)|[Rust](./solutions/504.%20Base%207.rs)|1 ms|
