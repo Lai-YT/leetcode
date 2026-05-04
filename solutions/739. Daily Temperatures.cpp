@@ -1,4 +1,3 @@
-#include <cstddef>
 #include <stack>
 #include <vector>
 
@@ -8,11 +7,11 @@ class Solution {
     auto days_to_wait =
         std::vector<int>(temperatures.size() /* narrow to int */, 0);
 
-    for (std::size_t curr_day = 0; curr_day < temperatures.size(); ++curr_day) {
+    for (int curr_day = 0, end_day = temperatures.size(); curr_day < end_day; ++curr_day) {
       /* current day is the first warmer day to these previous days */
       while (HasDayInWait_() &&
-             temperatures.at(curr_day) > temperatures.at(PrevDayInWait_())) {
-        days_to_wait.at(PrevDayInWait_()) = curr_day - PrevDayInWait_();
+             temperatures[curr_day] > temperatures[PrevDayInWait_()]) {
+        days_to_wait[PrevDayInWait_()] = curr_day - PrevDayInWait_();
         WarmerDayOfPrevIsFound_();
       }
       WaitForWarmerDay_(curr_day);
